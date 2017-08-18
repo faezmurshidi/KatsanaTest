@@ -92,7 +92,7 @@ public class MapsActivity extends FragmentActivity implements
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
-        setContentView(R.layout.test);
+        setContentView(R.layout.activity_maps);
 
         if(!canAccessLocation()){
             getPermission();
